@@ -1,0 +1,233 @@
+.mainContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageTrackContainer {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(241, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 500;
+    color: gray;
+}
+
+.circle.circleOne {
+    background-color: rgb(102, 77, 229);
+    color: white;
+    border: none;
+}
+
+.circle.circleTwo {
+    background-color: rgb(102, 77, 229);
+    color: white;
+    border: none;
+}
+
+.circle.circleThree {
+    background-color: rgb(102, 77, 229);
+    color: white;
+    border: none;
+}
+
+.circle.circleFour {
+    background-color: rgb(102, 77, 229);
+    color: white;
+    border: none;
+}
+
+.hrLine {
+    border: none;
+    background: rgb(241, 234, 234);
+    width: 40px;
+    height: 1px;
+}
+
+.hrLine.hrOne {
+    background: rgb(102, 77, 229);
+}
+
+.hrLine.hrTwo {
+    background: rgb(102, 77, 229);
+}
+
+.hrLine.hrThree {
+    background: rgb(102, 77, 229);
+}
+
+.hrLine.hrFour {
+    background: rgb(102, 77, 229);
+}
+
+.mainContainer :nth-child(3) {
+    font-size: 28px;
+}
+
+.desc {
+    color: rgb(133, 135, 139);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.inputDiv {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputDiv label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(59, 58, 58);
+    margin-bottom: 5px;
+}
+
+.inputDiv input {
+    height: 40px;
+    width: 350px;
+    height: 42px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(241, 234, 234);
+}
+
+.createBtn {
+    margin-top: 20px;
+    color: white;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(102, 77, 229);
+}
+
+.inputDivUrl {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputDivUrl label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(59, 58, 58);
+    margin-bottom: 5px;
+}
+
+.urlInput :nth-child(1) {
+    height: 40px;
+    width: 140px;
+    height: 42px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border: 1px solid rgb(241, 234, 234);
+}
+
+.urlInput :nth-child(2) {
+    height: 40px;
+    width: 210px;
+    height: 42px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    border: 1px solid rgb(241, 234, 234);
+}
+
+.boxContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.boxContainer > div {
+    cursor: pointer;
+}
+
+.boxDiv {
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(241, 234, 234);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 0px 0px 15px;
+}
+
+.boxDiv :nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.boxDiv :nth-child(3) {
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(146, 143, 143);
+}
+
+.blueUserBox{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(102,77,229);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 0px 0px 15px;
+}
+
+.blueUsersBox{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(102,77,229);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px 0px 0px 15px;
+}
+
+.blueUserBox :nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.blueUserBox :nth-child(3) {
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(146, 143, 143);
+}
+
+.blueUsersBox :nth-child(2) {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.blueUsersBox :nth-child(3) {
+    margin-top: 5px;
+    font-size: 13px;
+    color: rgb(146, 143, 143);
+}
+
+.congoLogo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
