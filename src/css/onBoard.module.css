@@ -231,3 +231,19 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .pageTrackContainer{
+        width: 90%;
+    }
+
+    .circle{
+        height: 35px;
+        width: 42px;
+    }
+  }
